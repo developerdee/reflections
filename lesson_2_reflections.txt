@@ -1,5 +1,11 @@
-What happens when you initialize a repository? Why do you need to do it?
+Q: What happens when you initialize a repository? Why do you need to do it?
 
 Creates a .git directory in the existing directory and creates metadata to track history.
 So git is aware of which files to consider for version tracking.
+
+Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area contains files you want to add to the repository, whereas the working directory contains all files in the directory including files that are not added to the repository. This allows us to have files in the working directory which we do not want to add to the repository e.g. ad-hoc test file for a use-once purpose.
+
+
 
