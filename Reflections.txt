@@ -1,0 +1,39 @@
+Lesson 1
+
+Comparing two files allows me to see differences easier.
+Changes can be seen at a glance.
+Changes from one file to another, one version to the next are easily highlighted.
+
+Q: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Seeing incremental changes and how the code developed could help you see problem solving patterns which could speed up future programming tasks.
+
+Q: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+A program crash would lose changes made in the middle of a logical change. Automatic commits would save most of your work - manual committing would have lost almost all of your work.
+
+Saving automatically would most likely produce versions that are not compilable or code that contains parts of a logical change and therefore produce versions that are not logical steps in a change. does not contain logical changes. Manual changes would avoid this.
+
+Manual saving relies on the user to actually commit. Automatic saving rules out user error in forgetting to commit.
+
+Q: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Git is geared towards code repositories and the likelihood of multiple files being related is high.
+Google Docs is geared towards storing individual documents that are mostly unrelated to one another, hence no necessity to saving multiple files in one commit.
+
+
+Q: How can you use the commands git log and git diff to view the history of files?
+
+git log displays all the commit history for the files in a repository i.e. the change log, along with their unique reference id.
+git diff allows you to find differences (changes) between two versions using their ids as parameters.
+
+Q: How might using version control make you more confident to make changes that could break something?
+
+Increases confidence greatly, as any change you make can be undone and you can revert back to any previous version of your code or in the case of multiple files, an entire application can be reverted.
+
+Q: Now that you have your workspace set up, what do you want to try using Git for?
+
+Use it for my personal coding projects - creating apps and oracle software
+
+
+
