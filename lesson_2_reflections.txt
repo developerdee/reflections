@@ -12,4 +12,6 @@ Q: How can you use the staging area to make sure you have one commit per logical
 you can compare with the repository using git diff --staged to ensure the change you are about to commit is a logical change.
 can also compare with the working directory using git diff to ensure that the changes you are currently working on are not part of the same logical changes in the staging area - if they are, add the file before committing.
 
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+You can use branches for experimental code, adding debug, trying out performance techniques or language translations.
 
