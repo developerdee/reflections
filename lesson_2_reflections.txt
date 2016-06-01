@@ -24,3 +24,9 @@ Q: What is the result of merging two branches together? Why do we represent it i
 
 One branch where the commit has two parents. Enables us to see the relationships clearer.
 
+Q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+pros: automatic merging saves time and speeds up development when working collaboratively. Manual merging requires more time to observe each conflict and work out what should be merged.
+cons: manual merging is more cautious, forcing developers to understand the changes that are being merged and avoiding inefficiencies or duplicate code - automatic merging will not detect these as conflicts.
+
+
