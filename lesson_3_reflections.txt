@@ -13,7 +13,11 @@ Pull changes manually to avoid over-writing your local changes.
 Q: Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+Fork - a copy of a repository on GitHub made in GitHub. Does not involve a local respository. Good for making your own changes from an existing repository created by someone else.
+
+Clone - a copy of a GitHub repository copied to your local machine. Essential when writing code or any document that requires an application or IDE to edit and maintain the doc/code e.g. word documents require MS Word, Oracle code is best developed and maintained using Toad or similar tool.
+
+Branch - Label a commit with any subsequent commit affecting the branch but not the master branch. Good for experimental work, or bug fixing or coding new features - all of which should be kept away from the main production code on Master branch until it is adequately tested and ready for merging ot the master branch.
 
 Q: What is the benefit of having a copy of the last known state of the remote
 stored locally?
