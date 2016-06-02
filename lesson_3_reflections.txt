@@ -22,7 +22,12 @@ Branch - Label a commit with any subsequent commit affecting the branch but not 
 Q: What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+Allows you to compare last known state of the remote you used to make your new developments against (i.e. bug fixes, new features, experimental), and enables you to make comparisons of that with the current state of the remote on GitHub. Perhaps your bug fixing is not required anymore? Perhaps the new feature you're working on is not as complex anymore? 
+
+Whatever the state, it helps you keep your code base consistent until you complete your code, or enables you to keep updating from GitHub and seeing what has changed without affecting your code.
+
+
+
 
 Q: How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
